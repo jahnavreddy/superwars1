@@ -1,0 +1,79 @@
+.hero1,.hero2,.hero3,.hero4,.hero5,.hero6,.hero7,.hero8,.hero9{
+  border: 1px solid black;
+  width: 120px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 3px grey;
+  border-radius: 5px;
+}
+
+/* .hero2{
+  height: 270px;
+  border: 1px solid black;
+  width: 120px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 3px grey;
+} */
+
+.villan1,.villan2,.villian3,.villian4,.villian5,.villian6,.villian7,.villian8,.villian9{
+  border: 1px solid black;
+  width: 120px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 3px grey;
+  border-radius: 5px;
+}
+
+/* .villan2{
+  height: 270px;
+  border: 1px solid black;
+  width: 120px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 3px grey;
+} */
+
+.hero{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  width: 500px;
+  gap: 5px;
+  text-align: center;
+  
+}
+img{
+  width: 100px;
+}
+
+.villans{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  width: 500px;
+  gap: 5px;
+  text-align: center;
+
+}
+
+.score{
+  border: 1px solid none;
+  width: 350px;
+  text-align: center;
+  height: 200px;
+  font-size: 60px;
+}
+
+.all{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+p{
+  font-weight: bolder;
+}
+
+.points{
+  font-size: 30px;
+}
